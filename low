@@ -1,0 +1,30 @@
+/*  write a c program to extract the last two digits of a given integer n, 
+where the number of digirs should be greater than 2  */
+
+#include<stdio.h>
+void main()
+{
+    int a;
+    printf("enter the num:");
+    scanf("%d",&a);
+   
+    if(a>2)
+     {
+        if(a>100)
+        {
+          printf("%d",a%100);
+            
+        }
+        else
+        {
+            printf("%d",a);
+        }
+    }
+    else
+    {
+        printf("the input num is less than 2");
+    }
+    
+        
+}      
+
