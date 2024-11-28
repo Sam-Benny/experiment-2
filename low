@@ -1,0 +1,33 @@
+/*write a program thats a char input (r,y,g)and print the
+corressponding traffic light (stop ,wait,go) use a switch statement
+to length the conversion */
+
+
+#include<stdio.h>
+void main()
+{
+    char a;
+    printf("enter the char:");
+    scanf("%c",&a);
+    switch(a)
+    {
+        case 'R':
+        printf("stop");
+        break;
+        
+        case 'Y':
+        printf("wait");
+        break;
+        
+        case 'G':
+        printf("Go");
+        break;
+        
+        default:
+        printf("Invalid");
+        break;
+        
+    }
+}
+
+
