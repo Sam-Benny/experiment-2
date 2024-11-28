@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+   float a,b,c;
+   printf("enter the num: ");
+   scanf("%f",&a);
+   if(a<=10000)
+   {
+       b=.02*a;
+       c=.08*a;
+       printf("Gross salary : %.0f",a+b+c);
+   }
+   else if(a<=20000)
+   {
+       b=.025*a;
+       c=.09*a;
+       printf("Gross salary : %.0f",a+b+c);
+   }
+   else if(a>20000)
+   {
+       b=.03*a;
+       c=.095*a;
+       printf("Gross salary : %.0f",a+b+c);
+   }
+    return 0;
+}
